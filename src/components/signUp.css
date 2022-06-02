@@ -1,0 +1,55 @@
+.text {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 150px;
+}
+
+.icon {
+    padding: 10px;
+    background: purple;
+    color: white;
+    min-width: 400px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.icon:hover {
+    background-color: darkcyan;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid darkcyan;
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+    border: 2px solid #888888;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover {
+    opacity: 1;
+    background-color: darkcyan;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
