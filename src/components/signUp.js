@@ -13,7 +13,7 @@ const SignUp = ({
     handleSignUp,
 }) => {
     return (
-        <div >
+        <div>
             <form onSubmit={handleSignUp} className="container">
                 <div>
                     <i class="fa fa-lock" aria-hidden="true"></i>
@@ -21,10 +21,11 @@ const SignUp = ({
                 <h1>signUp</h1>
                 {error !== '' ? <div className="error">{error}</div> : ''}
                 <div className="text">
+                <label class="required"></label>
                     <input
-                        type="FirstName"
-                        placeholder="FirstName"
-                        name="FirstName"
+                        type="First Name"
+                        placeholder="First Name"
+                        name="First Name"
                         className="input-field"
                         required
                         value={FirstName}
@@ -32,10 +33,11 @@ const SignUp = ({
                     />
                 </div>
                 <div className="text">
+                <label class="required"></label>
                     <input
-                        type="lastName"
-                        placeholder="lastName"
-                        name="lastName"
+                        type="last Name"
+                        placeholder="last Name"
+                        name="last Name"
                         className="input-field"
                         required
                         value={LastName}
@@ -43,6 +45,7 @@ const SignUp = ({
                     />
                 </div>
                 <div className="text">
+                <label class="required"></label>
                     <input
                         type="email"
                         placeholder="email"
@@ -54,6 +57,7 @@ const SignUp = ({
                     />
                 </div>
                 <div className="text">
+                <label class="required"></label>
                     <input
                         type="password"
                         placeholder="Password"

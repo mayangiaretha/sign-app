@@ -25,10 +25,10 @@ export const Logic = () => {
     return (
         <div>
             {firstName !== '' && signedIn ? (
-                <div className="Hallo">
+                <div className="welcome">
                     <h2>
-                        Hallo,<span> {firstName}</span>
-                        <button onClick={signOut}>Log Out</button>
+                        Hallo,  {firstName}
+                        <button onClick={signOut} className="btn">Log Out</button>
                     </h2>
                 </div>
             ) : (

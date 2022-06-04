@@ -1,4 +1,4 @@
-import Logic from "./components/logic";
+import Logic from './components/logic';
 
 function App() {
     return (

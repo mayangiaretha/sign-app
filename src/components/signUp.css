@@ -34,6 +34,12 @@
     padding: 10px;
     text-align: center;
 }
+.welcome {
+    margin: 100px auto;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
 
 .btn {
     background-color: red;
@@ -52,4 +58,11 @@
 .container h1 {
     text-align: center;
     padding: 0 0 20px 0;
+}
+.required::after {
+    content: '*';
+    color: red;
+    font-weight: bold;
+    
+
 }
